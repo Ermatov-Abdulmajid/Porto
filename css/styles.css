@@ -6,6 +6,10 @@
 
 body {
     font-family: "Libre Franklin", sans-serif;
+        background-image: url('w3css.gif');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
 }
 
 /* SITE-HEADER */
@@ -183,7 +187,7 @@ body {
 .feature-prog {
     width: 381px;
     height: 24px;
-    background: #C66C49;
+    background-image: #C66C49;
 }
 
 .feature-text-2 {
@@ -299,7 +303,7 @@ body {
 .footer-div {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
 }
 
 .footer-links {
@@ -311,3 +315,4 @@ body {
 .footer-li {
     padding-bottom: 14px;
 }
+
