@@ -124,6 +124,7 @@ body {
     padding-top: 93px;
     padding-bottom: 145px;
     background-color: rgba(255, 250, 242, 1);
+    display: flex;align-items: stretch;
 }
 
 .feature-container {
@@ -185,9 +186,24 @@ body {
 }
 
 .feature-prog {
-    width: 381px;
+    width: 446px;
     height: 24px;
-    background-image: #C66C49;
+    padding-left: 381px;
+    background-color: #C66C49;
+}
+
+.feature-prog-2 {
+    width: 446px;
+    height: 24px;
+    padding-left: 351px;
+    background-color: #C66C49;
+}
+
+.feature-prog-3 {
+    width: 446px;
+    height: 24px;
+    padding-left: 286px;
+    background-color: #C66C49;
 }
 
 .feature-text-2 {
