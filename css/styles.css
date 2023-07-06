@@ -6,10 +6,9 @@
 
 body {
     font-family: "Libre Franklin", sans-serif;
-        background-image: url('w3css.gif');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
+    padding: 0%;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 /* SITE-HEADER */
@@ -17,15 +16,15 @@ body {
     display: flex;
     justify-content: space-between;
     color: #fff;
-    background-image: url(../bg.jpg);
-    background-size: cover;
-    position: relative;
 }
 
 .container {    
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    background-image: url(../bg.jpg);
+    background-size: cover;
+    position: relative;
 }
 
 .site-header-container {
@@ -39,6 +38,8 @@ body {
 
 .background-image {
     background: rgba(198, 108, 73, 0.3);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 100%;
     height: 768px;
 }
@@ -51,7 +52,7 @@ body {
     padding-bottom: 145px;
 }
 
-.site-header-list {
+.site-header-list  {
     display: flex;
     list-style: none;
     margin: 0px;
@@ -67,10 +68,8 @@ body {
     color: #fff;
 }
 
-.nav-link {
-    text-decoration: none;
-    font-size: 18px;
-    color: #fff;
+.nav-links:nth-child(5) {
+    padding: 0px;
 }
 
 .site-header-heading {
